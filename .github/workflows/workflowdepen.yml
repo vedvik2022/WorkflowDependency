@@ -1,0 +1,9 @@
+name: Workflow_depen
+on: 
+  workflow_call:
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "This is second workflow!"
